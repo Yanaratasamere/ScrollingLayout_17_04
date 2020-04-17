@@ -1,12 +1,12 @@
 /* Set all parents to full height */
-html, body, 
+html, body,
 .container,
 .cbp-fbscroller,
-.cbp-fbscroller section { 
-	height: 100%; 
+.cbp-fbscroller section {
+	height: 100%;
 }
 
-/* The nav is fixed on the right side  and we center it by translating it 50% 
+/* The nav is fixed on the right side  and we center it by translating it 50%
 (we don't know it's height so we can't use the negative margin trick) */
 .cbp-fbscroller > nav {
 	position: fixed;
@@ -29,7 +29,6 @@ html, body,
 	height: 26px;
 	outline: none;
 	margin: 25px 0;
-	border-radius: 50%;
 	border: 4px solid #fff;
 }
 
@@ -53,6 +52,11 @@ html, body,
 	background-attachment: fixed;
 }
 
+h1 {
+	font-size: 6em;
+	color: yellow;
+}
+
 #fbsection1 {
 	background-image: url(../images/1.jpg);
 }
@@ -72,4 +76,3 @@ html, body,
 #fbsection5 {
 	background-image: url(../images/5.jpg);
 }
-
